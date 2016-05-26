@@ -11,4 +11,4 @@ main()
 }
 ```
 
-![](capture.PNG)
+![](Capture.PNG)
