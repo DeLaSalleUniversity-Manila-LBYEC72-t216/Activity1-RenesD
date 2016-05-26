@@ -35,3 +35,65 @@ int main()
 }
 ```
 ![](Capture2.PNG)
+
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+#define s scanf
+#define p printf
+
+main()
+{
+	float area, base, height;
+	p("Input Triangle's Base: ");
+	s("%f", &base);
+	p("Input Triangle's Height: ");
+	s("%f", &height);
+	area=(base*height)/2;
+	p("The Area of the Triangle is [%.2f]", area);
+	
+	return 0;
+}
+```
+![](Capture3.PNG)
+
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+#define s scanf
+#define p printf
+
+main()
+{
+	int year, age;
+	p("Input Birth Year: ");
+	s("%d", &year);
+	age=2016-year;
+	p("Your Age is approximately [%d].");
+	
+	return 0;
+}
+```
+![](Capture4.PNG)
+
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+#define s scanf
+#define p printf
+
+main()
+{
+	float x, x2;
+	p("Input the value of x: ");
+	s("%f", &x);
+	x2=x/70;
+	p("The value of f(x) is [%.2f]", x2);
+	
+	return 0;
+}
+```
+![](Capture5.PNG)
